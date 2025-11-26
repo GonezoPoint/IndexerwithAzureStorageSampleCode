@@ -7,6 +7,10 @@ param functionApplinuxFxVersion string = 'python|3.11'
 param VnetForResourcesRgName string
 param FunctionAppSubnetName string
 
+// Optional Docker/ACR settings
+param dockerRegistryUrl string = ''
+param dockerRegistryUsername string = ''
+
 param UseManualPrivateLinkServiceConnections string = 'False'
 param rgname string
 param vnetName string
