@@ -1,13 +1,13 @@
 targetScope = 'subscription'
-param rgname string = 'Techconnect'
+param rgname string = 'rg-indexer-sample'
 //param location string = resourceGroup().location
-param location string = 'canadacentral'
+param location string = 'westeurope'
 param tags object = {
   Environment: 'dev'
   Department: 'techcon'
 }
 param aisearchname string = 'gtptchconaisearch'
-param aisearchlocation string = 'canadacentral'
+param aisearchlocation string = 'westeurope'
 param sku_name string = 'standard'
 param disableLocalAuth bool = true
 param partitionCount int = 1
