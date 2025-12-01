@@ -1,10 +1,10 @@
-parameters:
-  - name: azureServiceConnection
-    type: string
-  - name: artifactName
-    type: string
-  - name: keyVaultUrl
-    type: string
+# parameters:
+#   - name: azureServiceConnection
+#     type: string
+#   - name: artifactName
+#     type: string
+#   - name: keyVaultUrl
+#     type: string
 
 jobs:
   - job: BuildAndTest
