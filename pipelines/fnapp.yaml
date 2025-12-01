@@ -22,10 +22,6 @@ stages:
       - template: ./variables/app/dev.yaml    
     jobs:
       - template: templates/funapp/build.yaml
-        parameters:
-          azureServiceConnection: ${{ variables.AzureServiceConnection }}
-          artifactName: ${{ variables.BuildArtifactName }}          
-          keyVaultUrl: https://${{ variables.KeyVaultName }}.vault.azure.net/
   - stage: deploytodev
     displayName: Deploy and Create Azure Functions in Dev
     dependsOn: buildandtest

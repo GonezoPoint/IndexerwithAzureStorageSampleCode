@@ -1,8 +1,8 @@
-parameters:
-  - name: azureServiceConnection
-    type: string
-  - name: artifactName
-    type: string
+# parameters:
+#   - name: azureServiceConnection
+#     type: string
+#   - name: artifactName
+#     type: string
 
 jobs:
   - job: BuildAndTest
